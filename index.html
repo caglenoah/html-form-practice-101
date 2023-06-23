@@ -12,9 +12,29 @@
             <input type="text" name="email" id="name">
         </div>
         <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="email" >
+           <label for="email">Email</label>
+           <input type="email" name="email" id="email" required>
+            <textarea id="comments" placeholder="comments" maxlength="500" minlength="200">Comment Here!</textarea>
         </div>
+        <section> How did you hear about me?
+            <div>
+                <label for="classmate">Classmate</label>
+                <input type="checkbox" name="classmate" id="classmate">
+            </div>
+            <div>
+                <label for="resumesub">Resume Submission</label>
+                <input type="checkbox" name="resumesub" id="resume">
+            </div>
+            <div>
+                <label for="linkedin">linkedin</label>
+                <input type="checkbox" name="linkedin" id="linkedin">
+            </div>
+            <div>
+                <label for="car">Coding Academy Rec</label>
+                <input type="checkbox" name="car" id="car">
+            </div>
+
+        </section>
         <div>
             <label for="age">Age</label>
             <input type="number" name="age" id="age" min="1" max="200" step="5">
@@ -77,6 +97,25 @@
     <label for="color">Color</label>
     <input type="color" name="color" id="color">
 </div>
+<section>
+   <div>
+       <p>Would you like to stay informed?</p>
+     <label for="yes">Yes</label>
+    <input type="radio" name="yes" id="yes" value="yes">
+    </div>
+    <div>
+        <label for="no">No</label>
+        <input type="radio" name="no" id="no" value="no">
+    </div>
+</section>
+<section>
+    <div>
+        <label for="birthdate">Enter your birth day to recieve a special birthday wish!:</label>
+        <input type="date" id="birthdate">
+        <button onclick="checkBirthday()">submit</button>
+    <p id="message"></p>
+    </div>
+</section>
 <div>
     <label>
         Password
@@ -91,3 +130,4 @@
 </html>
 
 <!-- identify code objects in notebook -->
+

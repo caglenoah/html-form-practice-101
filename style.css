@@ -1,0 +1,19 @@
+/* <input> for Email that is required and validates for an actual email address
+<textarea> that has a placeholder "comments" and limits the user to 500 characters and minimum of 20.
+<style> <textarea name="comment" required></textarea>
+<input type =submit
+
+A section of checkboxes that asks the user: "How did you hear about me?"
+Classmate
+Resume Submission
+LinkedIn
+Coding Academy Rec
+A section of radio buttons that asks if the user wants to be contacted back: Yes or No
+
+Offer to give an optional Birthday Wish by submitting their birth date through a date input.
+Remember your design must be designed for mobile, tablet, and laptop!
+Remember to have a submit button and create a result.html to capture the values for now until we get to building servers that can receive and hold the data.
+
+*/
+
+
